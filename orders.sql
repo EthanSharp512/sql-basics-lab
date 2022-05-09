@@ -21,3 +21,12 @@ select * from orders
 4.
 select sum(quantity)
 from orders;
+
+5.
+select sum(product_price * quantity) from orders
+
+6.
+select person_id, sum(product_price * quantity)
+from orders
+where person_id = 2
+group by person_id 
