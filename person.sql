@@ -33,4 +33,34 @@ select name, age from person
 where age > 20;
 
 7.
+select name, age from person
+where age = 18;
 
+8.
+select name, age from person
+where age < 20
+or age > 30;
+
+9.
+select name, age from person
+where age <> 27;
+
+10.
+select name, favorite_color from person
+where favorite_color <> 'Red';
+
+11.
+select name, favorite_color from person
+where favorite_color <> 'Red' and favorite_color <> 'Blue';
+
+12.
+select name, favorite_color from person
+where favorite_color = 'Orange' or favorite_color = 'Green';
+
+13.
+select name, favorite_color from person
+where favorite_color in('Orange', 'Green', 'Blue');
+
+14.
+select name, favorite_color from person
+where favorite_color in('Yellow', 'Purple');
