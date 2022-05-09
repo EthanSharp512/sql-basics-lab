@@ -30,4 +30,7 @@ order by age desc;
 
 6.
 select name, age from person
-order by age > 20;
+where age > 20;
+
+7.
+
